@@ -8,7 +8,7 @@ st.title("🤖 SynthRAG - Your Smart Research Assistant")
 # Session state for chat
 if "history" not in st.session_state:
     st.session_state.history = []
-
+#comment
 st.sidebar.header("Data Sources")
 data_source = st.sidebar.selectbox("Choose Knowledge Source", ["Wikipedia", "arXiv", "Uploaded PDF"])
 
